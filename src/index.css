@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --color-primary: #1f1d2b;
+  --color-secondary: #abbbc2;
+  --color-accent: #ea7c69;
+  --color-background: #252836;
+  --color-overlay: rgba(0, 0, 0, 0.7);
+  --color-button-add: rgba(255, 255, 255, 0.08);
+  --color-focus-button: rgba(255, 255, 255, 0.18);
+  --color-disable-button: rgba(255, 255, 255, 0.04);
+}
+
+body {
+  font-family: var(--font-poppins);
+}
